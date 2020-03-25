@@ -1,15 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react'
+import Logon from './pages/Logon'
+import './global.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Projeto criado!
-        </p>
-      </header>
-    </div>
-  );
+    <Logon />
+  )
 }
 
 export default App;
